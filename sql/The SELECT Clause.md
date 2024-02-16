@@ -34,3 +34,5 @@ SELECT DISTINCT
 FROM
     customers
 ```
+
+![alt text](image-2.png)

@@ -12,7 +12,7 @@ JOIN customers
 
 This join command will  join orders table in the left and customers table on the right and the form of join will be LIKE adding every customers table record to all orders table records .
 
-![image](../aseets/images/image.png)
+![image](../aseets/images/SQL-JOIN-OR-Inner-Join-1.png)
 
 ```sql
 SELECT * FROM orders 
@@ -24,7 +24,7 @@ Now we add the condition orders.customer_id = customers.customer_id we have only
 
 PS : We can write in the query JOIN or INNER JOIN .
 
-![alt text](../aseets/images/image2.png)
+![image](../aseets/images/SQL-JOIN-OR-Inner-Join-2.png)
 
 ```sql
 SELECT order_id , orders.customer_id , first_name , last_name  
@@ -37,7 +37,7 @@ Finally we can get the columns we want from both tables .
 
 PS: for customer_id we have two fields with the same name , so we had to specify the table .
 
-![alt text](../aseets/images/image-1.png)
+![image](../aseets/images/SQL-JOIN-OR-Inner-Join-3.png)
 
 PS : For short format we can make shortcut for tabales name o for orders , and c for customers 
 
